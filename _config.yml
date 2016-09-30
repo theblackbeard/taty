@@ -24,6 +24,9 @@ url: "https://theblackbeard.github.io/taty/" # the base hostname & protocol for 
 twitter_username: jekyllrb
 github_username:  jekyll
 
+permalink: /:day/:month/:year/:title/
+
+
 # Build settings
 markdown: kramdown
 theme: minima
