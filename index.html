@@ -5,17 +5,17 @@ title: Inicial
 <!-- Page Heading -->
 <div class="row">
   <div class="col-lg-12">
-    <h1 class="page-header">Ultimos Texto Dois
-      <small>Postados</small>
+    <h1 class="page-header">Qwsdadad sada
+    
     </h1>
   </div>
 </div>
 <!-- /.row -->
 
 {% for post in site.posts %}
-<div class="row">
-  <div class="col-md-7">
-    <a href="#">
+<div class="row page">
+  <div class="col-md-5 col-md-offset-2">
+    <a href="{{ post.url | prepend: site.baseurl }}">
       <img class="img-responsive" src="http://placehold.it/700x300" alt="">
     </a>
   </div>
