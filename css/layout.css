@@ -56,7 +56,9 @@ ul{
     margin-left: 300px;
     list-style-image: url('../img/icon.png');
 }
-
+li{
+    padding: 5px;
+}
 ul li a{
      font-family: Verdana;
      font-size: 26px;   
