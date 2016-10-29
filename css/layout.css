@@ -1,7 +1,8 @@
 body {
     padding-top: 10px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
-    /*background: url('../img/fundo.png') repeat-y;*/
-     background-attachment: fixed;
+    background: url('../img/fundo.png') no-repeat;
+    background-attachment: fixed;
+    height: 100%
 }
 
 footer {
@@ -9,7 +10,7 @@ footer {
 }
 
 h1.page-header{
-    text-align: center;
+    text-align: right;
     font-family: 'Indie Flower', cursive;
     font-size: 80px;
     padding-top: 20px;
@@ -43,6 +44,46 @@ hr.sep {
     color: rgba(255, 255, 255, 0.7);
 }
 
+
+
 hr.sep{
     width: 50%;
 }
+
+ul{
+    border:0 solid black;
+    width: 60%;
+    margin-left: 300px;
+    list-style-image: url('../img/icon.png');
+}
+
+ul li a{
+     font-family: Verdana;
+     font-size: 26px;   
+     color: #7A7A7A;
+     text-decoration: none;
+     padding: 5px;
+}
+
+ul li a:hover {
+    text-decoration: none;
+
+    padding: 5px;
+}
+
+ul li a:visited {
+    text-decoration: none;
+    color: #7A7A7B;
+    padding: 5px;
+}
+
+.content{
+    border: 0px solid black;
+    width: 60%;
+    margin-left: 300px;
+}
+
+.content p{
+    font-size: 20px;
+}
+
