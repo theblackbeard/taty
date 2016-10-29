@@ -57,7 +57,7 @@ ul{
     list-style-image: url('../img/icon.png');
 }
 li{
-    padding: 5px;
+    padding: 5px 0 5px 0;
 }
 ul li a{
      font-family: Verdana;
