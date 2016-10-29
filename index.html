@@ -13,7 +13,7 @@ title: Inicial
 <ul>
 {% for post in site.posts reversed %}
   <li><a href="{{ post.url | prepend: site.baseurl }}">{{post.title  | escape}}</a>
-  <em> {{ post.content | truncatewords:15}}</em>
+  <em> {{ post.content | strip_html |truncatewords:15}}</em>
   </li>
 {% endfor %}  
 </ul>
