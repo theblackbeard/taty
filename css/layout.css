@@ -16,6 +16,8 @@ h1.page-header{
     padding-top: 20px;
     padding-bottom: 30px;
     border: 0px solid #000;
+    text-shadow: 3px 2px 5px rgba(150, 150, 150, 0.42);
+    color: #A0A0A0;
 }
 
 hr.sep {
