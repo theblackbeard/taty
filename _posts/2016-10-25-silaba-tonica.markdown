@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Sílaba Tônica"
-date:   2016-10-28 12:13:56 -0300
+date:   2016-10-25 12:13:56 -0300
 categories: amor mensagem
 ---
 Olhos quentes, mãos ardentes
