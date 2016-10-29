@@ -11,7 +11,7 @@ title: Inicial
 <!-- /.row -->
 
 <ul>
-{% for post in site.posts reversed %}
+{% for post in site.posts %}
   <li><a href="{{ post.url | prepend: site.baseurl }}">{{post.title  | escape}}</a>
   <em> {{ post.content | strip_html |truncatewords:15}}</em>
   </li>
