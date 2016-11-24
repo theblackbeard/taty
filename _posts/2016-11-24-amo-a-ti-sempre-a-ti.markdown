@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title:  "Amo a ti, sempre a ti"
 date:   2016-11-24 12:30:56 -0300
